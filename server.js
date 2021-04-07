@@ -24,7 +24,7 @@ const noteSchema = {
 
 const Note = mongoose.model("Note", noteSchema);
 
-app.get("/", function (req, res) {
+app.get("/home", function (req, res) {
   Note.find({}, function (err, item) {
     if (!err) {
       res.json(item);

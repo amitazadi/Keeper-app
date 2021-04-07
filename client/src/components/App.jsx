@@ -13,7 +13,7 @@ function App() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3001")
+    fetch("/home")
       .then((res) => {
         if (res.ok) {
           return res.json();
@@ -49,6 +49,7 @@ function App() {
           />
         );
       })}
+      {/* <Footer /> */}
     </div>
   );
 }
