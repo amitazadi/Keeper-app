@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "main": "index.js",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://keeper-web-app.herokuapp.com/home",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
