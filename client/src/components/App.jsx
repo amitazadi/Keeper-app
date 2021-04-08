@@ -8,9 +8,9 @@ import axios from "axios";
 function App() {
   const [notes, setNotes] = useState([]);
 
-  // const user = {
-  //   user_id: "",
-  // };
+  const user = {
+    user_id: "",
+  };
 
   useEffect(() => {
     fetch("/home")
