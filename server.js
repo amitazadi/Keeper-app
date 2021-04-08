@@ -24,7 +24,7 @@ const noteSchema = {
 
 const Note = mongoose.model("Note", noteSchema);
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.redirect("/home");
 });
 
@@ -44,7 +44,6 @@ app.post("/add", function (req, res) {
     title: title1,
     content: content1,
   });
-
   console.log(newNote);
   newNote.save();
   res.redirect("/home");
