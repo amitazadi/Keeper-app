@@ -1,8 +1,8 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "main": "server.js",
-  "proxy": "https://keeper-web-app.herokuapp.com",
+  "main": "index.js",
+  "proxy": "http://localhost",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
@@ -10,7 +10,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
-    "web-vitals": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,12 +17,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "keywords": [],
   "author": "",
